@@ -5,9 +5,8 @@ This repository contains datasets, code, and resources for various Natural Langu
 This repository includes the following NLP projects:
 
 ### 1. Text Classification
-File: Ratings & Review NLP Classification Problem.ipynb
-This notebook demonstrates how to classify text into different categories using models like Support Vector Machine (SVM), Neural Networks, and more.
-Example use cases: Sentiment Analysis, Product Review Classification, News Article Classification, etc.
+This notebook demonstrates how to classify text into different categories using models like Support Vector Machine (SVM), regression 
+Example use cases:Review NLP Classification Problem of amazon reviews.ipynb
 
 ### 2. Named Entity Recognition (NER)
 This project focuses on extracting named entities such as persons, locations, dates, and other important information from unstructured text.
@@ -20,6 +19,12 @@ Tokenization: Breaking text into words or phrases.
 Lemmatization: Reducing words to their base form (e.g., "running" → "run").
 Stopword Removal: Removing common words like "the", "and", etc., which don't add much meaning.
 These steps are essential to clean and normalize text before applying more complex NLP models.
+
+### 4. Topic Modeling
+This project covers various techniques for topic modelling such as
+Latent Dirichlet Allocation(LDA):classifying documents in topics using an unsupervised technique 
+Non Negative Matrix Factorization:  linear algebra-based method for dimensionality reduction and feature extraction
+
 
 ## Requirements
 To run the code in this repository, you'll need the following Python libraries:
